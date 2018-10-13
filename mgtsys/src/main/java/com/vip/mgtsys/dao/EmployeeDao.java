@@ -5,7 +5,7 @@ import java.util.List;
 import org.apache.ibatis.annotations.Param;
 
 import com.vip.mgtsys.model.EmployeeInfo;
-
+// test
 public interface EmployeeDao {
 
 	public List<EmployeeInfo> getEmployeeList(@Param("sid") String sid,
